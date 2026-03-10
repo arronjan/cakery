@@ -1,5 +1,4 @@
 from django.shortcuts import render
 
-# If this says 'def index', then the urls.py must say 'views.index'
-def index(request):
+def home(request):  # Changed this name to match your urls.py
     return render(request, 'bakery/index.html')
